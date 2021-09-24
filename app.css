@@ -1,0 +1,63 @@
+body{
+    margin: Opx;
+    padding: Opx;
+}
+
+main{
+    margin: Opx;
+    padding: Opx;
+}
+
+/* contenedor principal del ejemplo */
+.container{
+    width: 100%;
+    display: flex;
+}
+
+/* Columna 1 */
+.container .col1{
+    width: 33.33%;
+    height: 30vh;
+    background-color: rgb(44, 40, 39);
+}
+/* Columna 2 */
+.container .col2{
+    width: 66.67%;
+    height: 30vh;
+    background-color: cyan;
+}
+
+/* Contenedor 2 | fila 1 */
+
+.container2 .row{
+    display: flex;
+}
+
+.container2 .row .col3,.col4,.col5{
+    width: 33.33%;
+    height: 30vh;
+}
+
+.container2 .row .col3{
+    background-color: darkred;
+}
+
+.container2 .row .col4{
+    background-color: rgb(21, 133, 21);
+}
+
+.container2 .row .col5{
+    background-color: orange;
+}
+
+.container2 .row .col6{
+    background-color: royalblue;
+    width: 50%;
+    height: 30vh;
+}
+
+.container2 .row .col7{
+    background-color: rgb(37, 160, 133);
+    width: 50%;
+    height: 30vh;
+}
